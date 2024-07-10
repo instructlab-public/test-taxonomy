@@ -1,0 +1,20 @@
+created_by: Gregory-Pereira
+version: 2
+domain: crypto currency
+task_description: 'Bitcoin: A Peer-to-Peer Electronic Cash System'
+seed_examples:
+  - question: q1
+    answer: a1
+  - question: q2
+    answer: a2
+  - question: q3
+    answer: a3
+  - question: q4
+    answer: a4
+  - question: q5
+    answer: a5
+document:
+  repo: https://github.com/Gregory-Pereira/taxonomy-knowledge-docs
+  commit: 62d7fcc0e41e674a0b67d5da37f042e17323472e
+  patterns:
+    - bitcoin-white-paper-20240710T183251968.pdf

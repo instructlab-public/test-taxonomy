@@ -1,0 +1,5 @@
+Title of work: bitcoin-white-paper
+Link to work: a
+Revision: b
+License of the work: c
+Creator names: d
