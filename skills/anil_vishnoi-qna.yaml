@@ -1,0 +1,19 @@
+created_by: vishnoianil
+version: 2
+task_description: test skill
+seed_examples:
+  - question: aa
+    answer: aa
+    context: aa
+  - question: bb
+    answer: bb
+    context: bb
+  - question: cc
+    answer: cc
+    context: cc
+  - question: dd
+    answer: dd
+    context: dd
+  - question: ee
+    answer: ee
+    context: ee
