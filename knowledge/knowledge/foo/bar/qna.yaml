@@ -1,0 +1,27 @@
+created_by: nerdalert
+version: 2
+domain: asdfa
+task_description: asdfasdf
+seed_examples:
+  - question: Q
+    answer: A
+  - question: QQ
+    answer: AA
+  - question: QQQ
+    answer: AAA
+  - question: QQQQ
+    answer: AAAA
+  - question: QQQQQ
+    answer: AAAAA
+  - question: >-
+      QQQQ #$%^&*((((*&^%$# 'quotes' "parens" QQQQ #$%^&*((((*&^%$# 'quotes'
+      "parens" QQQQ #$%^&*((((*&^%$# 'quotes' "parens" QQQQ #$%^&*((((*&^%$#
+      'quotes' "parens" QQQQ #$%^&*((((*&^%$# 'quotes' "parens" QQQQ
+      #$%^&*((((*&^%$# 'quotes' "parens" QQQQ #$%^&*((((*&^%$# 'quotes'
+      "parens" 
+    answer: AAAAAA
+document:
+  repo: https://github.com/nerdalert/taxonomy-knowledge-docs
+  commit: 99a5360c9cc7a24691def16fd78e2df7e1a566dc
+  patterns:
+    - rfc7348-20240711T201633792.md

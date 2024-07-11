@@ -1,0 +1,5 @@
+Title of work: title of work
+Link to work: link
+Revision: foo
+License of the work: bar
+Creator names: floofy kittens
