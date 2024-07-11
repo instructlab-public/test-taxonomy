@@ -1,0 +1,19 @@
+created_by: vishnoianil
+version: 2
+task_description: test skill description for demo
+seed_examples:
+  - question: aa
+    context: aa
+    answer: aa
+  - question: bb
+    context: bb
+    answer: bb
+  - question: cc
+    context: cc
+    answer: cc
+  - question: dd
+    context: dd
+    answer: dd
+  - question: ee
+    context: ee
+    answer: ee
