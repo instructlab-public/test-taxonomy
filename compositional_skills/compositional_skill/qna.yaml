@@ -1,0 +1,19 @@
+created_by: nerdalert
+version: 2
+task_description: test
+seed_examples:
+  - question: Q1-123
+    context: C1
+    answer: A1
+  - question: QQ
+    context: ""
+    answer: AA
+  - question: QQQ
+    context: ""
+    answer: AAA
+  - question: QQQQ
+    context: ""
+    answer: AAAA
+  - question: QQQQQ
+    context: ""
+    answer: AAAAA
