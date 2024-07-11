@@ -1,0 +1,20 @@
+created_by: vishnoianil
+version: 2
+domain: test domain
+task_description: test knowledge description
+seed_examples:
+  - question: aa
+    answer: aa
+  - question: bb
+    answer: bb
+  - question: cc
+    answer: cc
+  - question: dd
+    answer: dd
+  - question: ee
+    answer: ee
+document:
+  repo: https://github.com/vishnoianil/taxonomy-knowledge-docs
+  commit: f9135b27d5a6c55beca99b0a52278585b9128745
+  patterns:
+    - paper_bpf_kernel_offload-20240711T073750102.pdf
