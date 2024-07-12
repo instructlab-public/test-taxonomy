@@ -1,0 +1,19 @@
+created_by: nerdalert
+version: 2
+task_description: lints
+seed_examples:
+  - question: q
+    context: 
+    answer: a
+  - question: qq
+    context: 
+    answer: aa
+  - question: qqq
+    context: 
+    answer: aaa
+  - question: qqqq
+    context: 
+    answer: aaaa
+  - question: qqqqq
+    context: 
+    answer: aaaaa
