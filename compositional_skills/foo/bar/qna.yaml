@@ -1,0 +1,23 @@
+created_by: nerdalert
+version: 2
+task_description: sdf
+seed_examples:
+  - question: >-
+      asdf 'quote' "double quote" $%^&*((*&^%$#@ asdf 'quote' "double quote"
+      $%^&*((*&^%$#@ asdf 'quote' "double quote" $%^&*((*&^%$#@ asdf 'quote'
+      "double quote" $%^&*((*&^%$#@ asdf 'quote' "double quote" $%^&*((*&^%$#@
+      asdf 'quote' "double quote" $%^&*((*&^%$#@ asdf 'quote' "double quote"
+      $%^&*((*&^%$#@ asdf 'quote' "double quote" $%^&*((*&^%$#@ asdf 'quote'
+      "double quote" $%^&*((*&^%$#@ asdf 'quote' "double quote" $%^&*((*&^%$#@
+      asdf 'quote' "double quote" $%^&*((*&^%$#@
+    answer: asdf
+  - question: re
+    context: 4tger
+    answer: g4eqrsd
+  - question: greafaadsfa
+    answer: asdfadfasdf
+  - question: gertq
+    answer: g534
+  - question: gewra
+    context: dsfgsdfgsdfg
+    answer: 4hts
