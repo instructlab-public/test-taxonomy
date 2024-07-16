@@ -1,0 +1,25 @@
+created_by: nerdalert
+version: 2
+domain: kittens
+task_description: meowdy
+document:
+  repo: https://github.com/nerdalert/taxonomy-knowledge-docs
+  commit: 6a2daca25ffa9feb49feaf09a80ea5b092272d53
+  patterns:
+    - rfc7348-20240716T042324315.md
+seed_examples:
+  - question: |-
+      Q1 ASDASD
+      ASD
+      ASDDASD
+    answer: A2
+  - question: >-
+      QQ QQQQ QQQQ QQQ QQQ QQQQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ QQ
+      QQ QQ
+    answer: AA
+  - question: QQQ
+    answer: AAA
+  - question: QQQQ
+    answer: AAAA
+  - question: QQQQQ
+    answer: AAAAA
