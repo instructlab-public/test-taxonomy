@@ -1,0 +1,32 @@
+created_by: nerdalert
+version: 2
+domain: kittahs
+task_description: sdfasdfasdf
+document:
+  repo: https://github.com/nerdalert/taxonomy-knowledge-docs
+  commit: 3a49df72e21ca23b12f66f32544e0ae975667328
+  patterns:
+    - >-
+      Attention-Is-All-You-Need-1706.03762v7-20240628T025322410-20240716T143737256.md
+seed_examples:
+  - question: >-
+      Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg
+      Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg
+      Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg
+      Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg Qdfgsdfgsdfg
+    answer: A
+  - question: |-
+      QQzdfdf
+      dfsgdf
+      sfdgdfg
+      dfgdf
+      xf
+    answer: AA
+  - question: QQQ-123445
+    answer: AAA
+  - question: QQQQ
+    answer: AAAA
+  - question: QQQQQ
+    answer: AAAAAA
+  - question: sdfsdf
+    answer: asdfasdf
