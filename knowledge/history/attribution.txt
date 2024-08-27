@@ -1,0 +1,5 @@
+Title of work: title
+Link to work: link
+Revision: document
+License of the work: license
+Creator names: creator5
