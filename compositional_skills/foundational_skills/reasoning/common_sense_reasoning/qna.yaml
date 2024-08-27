@@ -1,0 +1,19 @@
+created_by: vishnoianil
+version: 3
+task_description: 'skill details '
+seed_examples:
+  - question: a
+    context: a1
+    answer: a1
+  - question: b
+    context: b1
+    answer: b1
+  - question: c
+    context: c1
+    answer: c2
+  - question: d
+    context: d1
+    answer: d2
+  - question: f
+    context: f1
+    answer: f2
