@@ -1,0 +1,18 @@
+created_by: vishnoianil
+version: 3
+domain: domain
+document_outline: documen details
+seed_examples:
+  - context: '1'
+    questions_and_answers:
+      - question: '11'
+        answer: '11'
+      - question: '12'
+        answer: '12'
+      - question: '13'
+        answer: '13'
+document:
+  repo: https://example.com/test
+  commit: asdfasdf0788979
+  patterns:
+    - test.pdf
