@@ -1,0 +1,60 @@
+created_by: surnandi-git
+version: 3
+domain: watsonx.gov
+document_outline: 'information about watsonx.gov from IBM corporation. '
+seed_examples:
+  - context: 'questions are related to watsonx.gov '
+    questions_and_answers:
+      - question: What is watsonx.gov?
+        answer: manage and monitor the artificial intelligence (AI) activities
+      - question: 'What capabilities '
+        answer: Watsonx.governance enables
+      - question: compliance?
+        answer: >-
+          Watsonx.governance provides powerful governance, risk, and compliance
+          capabilities
+  - context: questions are related to watsonx.gov 2
+    questions_and_answers:
+      - question: What is watsonx.gov?
+        answer: 'manage and monitor '
+      - question: >-
+          What capabilities does watsonx.governance offer for monitoring AI
+          models?
+        answer: 'Watsonx.governance enables '
+      - question: How does watsonx.governance support governance and compliance?
+        answer: Watsonx.governance provides powerful governance
+  - context: questions are related to watsonx.gov 3
+    questions_and_answers:
+      - question: What is watsonx.gov?
+        answer: manage and
+      - question: >-
+          What capabilities does watsonx.governance offer for monitoring AI
+          models?
+        answer: Watsonx.governance enables organizations to
+      - question: How does watsonx.governance support governance and compliance?
+        answer: 'Watsonx.governance provides powerful '
+  - context: questions are related to watsonx.gov 4
+    questions_and_answers:
+      - question: What is watsonx.gov?
+        answer: 'manage and monitor the artificial intelligence '
+      - question: >-
+          What capabilities does watsonx.governance offer for monitoring AI
+          models?
+        answer: 'Watsonx.governance enables organizations to '
+      - question: 'How does watsonx.governance support '
+        answer: 'Watsonx.governance provides '
+  - context: questions are related to watsonx.gov 5
+    questions_and_answers:
+      - question: What is watsonx.gov?
+        answer: manage and monitor the artificial
+      - question: >-
+          What capabilities does watsonx.governance offer for monitoring AI
+          models?
+        answer: 'Watsonx.governance enables organizations to '
+      - question: support governance and compliance?
+        answer: Watsonx.gov provides powerful governance
+document:
+  repo: https://github.com/surnandi-git/taxonomy-knowledge-docs
+  commit: 766156bbd249d76ef96a56fa74b347421bcffdbb
+  patterns:
+    - watsonx.gov-20240912T055814397.md
