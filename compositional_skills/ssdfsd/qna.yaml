@@ -1,0 +1,19 @@
+created_by: nerdalert
+version: 3
+task_description: asdfasdf sdfasdf asdfasdfa asdfasdfasdf asdfasdf
+seed_examples:
+  - context: sdfsd
+    question: sdf
+    answer: sdfsdf
+  - context: sdsdf
+    question: sd
+    answer: sdfsdf
+  - context: sdfsdfsdf
+    question: sdfsdf
+    answer: sdfsdfsdf
+  - context: asdfasdf
+    question: asdfd
+    answer: asdfasdf
+  - context: asdf
+    question: asdfasdf
+    answer: asdf
