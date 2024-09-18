@@ -1,0 +1,19 @@
+created_by: vishnoianil
+version: 3
+task_description: ' test skill description -  test skill description   test skill description '
+seed_examples:
+  - context: '6'
+    question: '6'
+    answer: '6'
+  - context: '2'
+    question: '2'
+    answer: '2'
+  - context: '3'
+    question: '3'
+    answer: '3'
+  - context: '4'
+    question: '4'
+    answer: '4'
+  - context: '5'
+    question: '5'
+    answer: '5'
