@@ -1,0 +1,115 @@
+created_by: beaumorley
+version: 3
+domain: sports
+document_outline: >-
+  The Orleans Firebirds, formerly the Orleans Cardinals, are a collegiate summer
+  baseball team based in Orleans, Massachusetts. The team is a member of the
+  Cape Cod Baseball League and plays in the league's East Division.
+seed_examples:
+  - context: >-
+      The Orleans Firebirds are a collegiate summer baseball team based in
+      Orleans, Mass. The Firebirds are one of 10 members of the Cape Cod
+      Baseball League, the nation's top college summer league.
+
+      Formerly known as the Sparklers and Cardinals, the Firebirds are 11-time
+      CCBL champions. The Birds most recently captured the league title in 2005,
+      when they defeated the Bourne Braves in two games.
+
+      Baseball has been played at Eldredge Park since 1913, and Orleans
+      officially entered the CCBL in 1928. The team captured its first titles
+      following World War II, when it won seven championships from 1947 to 1957.
+
+      The CCBL became a NCAA-recognized league in 1963, bringing collegiate
+      athletes from across the country to each team. Orleans adopted the
+      Cardinal as its new mascot and reached the league championship series four
+      times in the next decade.
+
+
+      Orleans won its first modern-era championship in 1986, led by manager John
+      Castleberry. The Birds captured their next two titles in 1993 with Rolando
+      Casanova at the helm, and in 2003 under manager Carmen Carcone.
+
+      Current field manager Kelly Nicholson joined the team in 2005 and led the
+      Birds to a championship in his first season en route to Manager of the
+      Year honors.
+    questions_and_answers:
+      - question: Who are the Orleans Firebirds?
+        answer: >-
+          The Orleans Firebirds are a collegiate summer baseball team based in
+          Orleans, Mass.
+      - question: What did the Orleans Firebirds used to be called?
+        answer: >-
+          The Orleans Firebirds were originally called the Orleans Cardinals.
+          They changed in their name in 2009 due to licensing restrictions.
+      - question: When did the Orleans Firebirds begin playing?
+        answer: >-
+          The Orleans Firebirds officially entered into the Cape Cod Baseball
+          League in 1928.
+  - context: >-
+      Our home field of Eldredge Park, located next to Nauset Middle School in
+      Orleans, was named “the best summer collegiate park in the nation” in 2004
+      by Baseball America. The picturesque park has served Orleans for more than
+      100 years after being originally founded in the early 1900s by local Lewis
+      Winslow “Win” Eldredge in the interests of young people of Orleans needing
+      a playground.
+
+      Today, Eldredge Park is a mainstay attraction for the Town of Orleans.
+      With modern amenities and charms once described by Philadelphia Reporter
+      Joe Parillo as a “Normal Rockwell painting come to life,” a visit to
+      Eldredge Park is at the top of all Cape Codders’ summer bucket lists.
+      Learn more about Eldredge Park’s history here.
+    questions_and_answers:
+      - question: Where is Eldredge Park located?
+        answer: Next to Nauset Middle School in Orleans
+      - question: Eldredge Park in Orleans.
+        answer: What is the Orleans Cardinals' home field?
+      - question: 100 years ago.
+        answer: When was Eldredge Park been founded?
+  - context: >-
+      Eldredge Park — originally constructed in the early 1911, only one year
+      following the creation of Fenway Park in Boston — became the park we know
+      and love with major park renovations starting in 1966. Between 1966 and
+      1967, the Town of Orleans allocated $30,000 for improvements to the park,
+      including construction of the bandstand, tennis courts, picnic areas, and
+      the relocation and reorientation of the baseball diamond.
+    questions_and_answers:
+      - question: Eldredge Park was constructed in 1911.
+        answer: When was Eldredge Park constructed?
+      - question: Between 1966 and 1967, Orleans spent $30,000 to renovate the park.
+        answer: How much did Orleans pay to renovate the park?
+      - question: The park also has a bandstand, tennis courts, and picnic areas.
+        answer: What are some other amenities of the park?
+  - context: >-
+      The CCBL Hall of Fame and Museum is a history museum and hall of fame
+      honoring past players, coaches, and others who have made outstanding
+      contributions to the CCBL.[142] Below are the inductees who spent all or
+      part of their time in the Cape League with Orleans.
+    questions_and_answers:
+      - question: Who was inducted into the CCBL Hall of Fame in 2024?
+        answer: Todd Helton was inducted in 2024.
+      - question: What is the CCBL Hall of Fame?
+        answer: The Cape Cod Baseball League Hall of Fame.
+      - question: What is required to be an inductee?
+        answer: They spent all or part of their time in the Cape League with Orleans.
+  - context: >-
+      The 1967 CCBL All-Star Game was the scene of the dedication of the “New
+      Eldredge Park”, with Massachusetts Governor John Volpe and dozens of NBL
+      scouts attending the grand opening of the park. Today, Eldredge Park is
+      recognized in the Orleans Historical Properties Survey and the
+      Massachusetts Historical Commission, paying homage to the 106-year journey
+      that has created one of the most iconic ballparks on Cape Cod and the team
+      that calls it home.
+    questions_and_answers:
+      - question: Who dedicated the new park in 1967?
+        answer: Massachusetts Governor John Volpe.
+      - question: Dozens of baseball scouts.
+        answer: Who else attended the grand opening?
+      - question: What local organization recognizes Eldredge Park?
+        answer: >-
+          The Orleans Historical Properties Survey and the Massachusetts
+          Historical Commission
+document:
+  repo: https://github.com/beaumorley/firebirds_history/blob/main/firebirds_info.md
+  commit: ba71a8a4c113d73604b311149f4274b6ea32b3a4
+  patterns:
+    - firebirds_info.md
