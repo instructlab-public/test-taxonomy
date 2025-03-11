@@ -1,0 +1,142 @@
+created_by:
+version: 3
+domain: Healthcare Policy
+document_outline: >-
+  This document outlines Mass General Brigham's financial assistance policy,
+  including key definitions of medical services, eligibility criteria,
+  application process, and exclusions. It covers financial counseling services
+  and describes how patients can apply for financial assistance with medical
+  bills.
+seed_examples:
+  - context: >-
+      Financial Assistance: A provision of healthcare services provided for free
+      or discounted to eligible patients, with documented and verified financial
+      need, who meet the criteria established within this policy.
+    questions_and_answers:
+      - question: What is Financial Assistance as defined by Mass General Brigham?
+        answer: >-
+          Financial Assistance is a provision of healthcare services provided
+          for free or discounted to eligible patients, with documented and
+          verified financial need, who meet the criteria established within this
+          policy.
+      - question: >-
+          When can patients apply for financial assistance at Mass General
+          Brigham?
+        answer: >-
+          Patients may request financial assistance at any time during
+          pre-registration, registration, inpatient stay, outpatient service, or
+          throughout the course of the billing and collections cycle.
+      - question: How are Financial Assistance Discounts defined?
+        answer: >-
+          Financial Assistance Discounts are adjustments to patients' balances
+          that are made based on the patient's financial status according to the
+          Financial Assistance Policy.
+  - context: >-
+      Mass General Brigham defines several types of services including Emergent
+      Services, Elective Services, and Urgent Services. Emergent Services are
+      medically necessary services provided after the onset of a medical
+      condition manifesting by symptoms of sufficient severity that the absence
+      of prompt medical attention could reasonably lead to serious health
+      consequences. Elective Services are medically necessary services that
+      don't meet the definition of Emergent or Urgent Services. Urgent Services
+      are medically necessary services provided after sudden onset of a medical
+      condition where absence of medical attention within 24 hours could
+      reasonably result in health jeopardy.
+    questions_and_answers:
+      - question: How does MGB define Emergent Services?
+        answer: >-
+          Emergent Services are medically necessary services provided after the
+          onset of a medical condition manifesting by symptoms of sufficient
+          severity that the absence of prompt medical attention could reasonably
+          be expected to result in placing health in
+      - question: What are Elective Services in MGB's financial policy?
+        answer: >-
+          Elective Services are medically necessary services that do not meet
+          the definition of Emergent or Urgent Services. The patient typically,
+          but not exclusively, schedules these services in advance.
+      - question: How are Urgent Services different from Emergency Services?
+        answer: >-
+          Urgent Services are provided for conditions that are not life
+          threatening and do not pose a high risk of serious damage to health,
+          while Emergency Services address conditions that could place health in
+          serious jeopardy.
+  - context: >-
+      Mass General Brigham classifies patients in several categories for
+      financial assistance purposes. Uninsured Patients have no health insurance
+      in effect for a specific date of service or coverage is not effective for
+      a specific service. Underinsured Patients have some insurance or
+      third-party payment source but out-of-pocket expenses exceed their ability
+      to pay. Self-pay refers to patients with no insurance coverage or those
+      opting out of their insurance coverage for specific services.
+    questions_and_answers:
+      - question: How does MGB define an Uninsured Patient?
+        answer: >-
+          An Uninsured Patient is a patient that does not have any health
+          insurance in effect for a specific date of service or where their
+          coverage is not effective for a specific service due to network
+          limitations.
+      - question: What is the definition of an Underinsured Patient?
+        answer: >-
+          An Underinsured Patient is a patient with some insurance or other
+          third-party source of payment, whose out-of-pocket expenses exceed
+          his/her ability to pay.
+      - question: Are patients with MassHealth Limited considered insured?
+        answer: >-
+          No, patients whose only coverage is MassHealth Limited and/or HSN are
+          generally considered to be Uninsured since those programs do not
+          function per standard insurance coverage rules.
+  - context: >-
+      The financial assistance application process at Mass General Brigham can
+      be initiated through PBS Customer Service, PBS Collections, or through a
+      Patient Financial Counselor at any facility. Typically, only fully
+      completed applications are reviewed for consideration, with all
+      applications being sent to PBS for final determination. Applications will
+      be screened to determine if the patient has met their obligations,
+      including obtaining available insurance coverage.
+    questions_and_answers:
+      - question: >-
+          How can patients begin the application process for financial
+          assistance?
+        answer: >-
+          The application process can be initiated either directly with PBS
+          Customer Service, PBS Collections or through contact with a Patient
+          Financial Counselor at any Mass General Brigham hospital or health
+          center.
+      - question: How long are financial assistance approvals valid?
+        answer: >-
+          Applications will generally be effective for one year from the date of
+          application.
+      - question: What screening is done on applications for financial assistance?
+        answer: >-
+          All applications will be screened to determine if the patient has met
+          his/her obligations, including the obligation to obtain any available
+          insurance coverage.
+  - context: >-
+      Mass General Brigham's financial assistance policy includes specific
+      exclusions. MGPO has no uninsured patient discount for Dental Services,
+      Voice Center and Travel Clinic Services. Spaulding Rehabilitation Network
+      excludes services at Brighton location, outpatient therapies, specialty
+      evaluations and treatments, and office procedures. McLean Hospital
+      excludes night fees for Partial Hospitalization not covered by insurance,
+      Per-Diem based All-Inclusive Programs, and CATS Program services.
+    questions_and_answers:
+      - question: What services are excluded from uninsured patient discounts at MGPO?
+        answer: >-
+          There is no uninsured patient discount for MGPO Dental Services, Voice
+          Center and Travel Clinic Services in addition to what is in the
+          specific service exclusions.
+      - question: >-
+          What therapy services are excluded from uninsured patient discounts at
+          Spaulding?
+        answer: >-
+          Outpatient therapy including Physical, Occupational, Speech Therapy or
+          SRH Behavioral Health are excluded from uninsured patient discounts.
+      - question: What McLean Hospital programs have no uninsured patient discount?
+        answer: >-
+          Night Fee associated with Partial Hospitalization when not covered by
+          insurance.
+document:
+  repo: https://github.com/vancura/taxonomy-knowledge-docs
+  commit: 16a0933e90598d4138ae00826f0ac9a0afd0c3f9
+  patterns:
+    - mgb-financial-assistance-policy-english-20250311T132050234.md

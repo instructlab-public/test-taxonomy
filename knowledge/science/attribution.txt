@@ -1,0 +1,5 @@
+Title of work: Example
+Link to work: https://example.com
+Revision: 1.0.0
+License of the work: Private
+Creator names: Václav Vančura
