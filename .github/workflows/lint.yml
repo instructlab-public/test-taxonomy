@@ -59,7 +59,7 @@ jobs:
 
       - name: "Find changed skills and knowledge files"
         id: changed-files
-        uses: tj-actions/changed-files@bab30c2299617f6615ec02a68b9a40d10bd21366 # v45.0.5
+        uses: tj-actions/changed-files@3b04099b21072562f07469c10deb182b24236ca9 # v45.0.5
         with:
           files: |
             compositional_skills/**/*.yaml
