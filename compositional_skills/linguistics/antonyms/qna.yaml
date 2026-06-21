@@ -1,0 +1,14 @@
+version: 3
+task_description: Teach the model to provide a clear antonym for a given English word.
+created_by: mkusiappiah
+seed_examples:
+  - question: What is an antonym of the word "hot"?
+    answer: An antonym of "hot" is "cold".
+  - question: What is an antonym of the word "rapid"?
+    answer: An antonym of "rapid" is "slow".
+  - question: What is an antonym of the word "ancient"?
+    answer: An antonym of "ancient" is "modern".
+  - question: What is an antonym of the word "expand"?
+    answer: An antonym of "expand" is "contract".
+  - question: What is an antonym of the word "generous"?
+    answer: An antonym of "generous" is "stingy".
