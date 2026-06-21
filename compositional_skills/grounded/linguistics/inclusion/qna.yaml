@@ -9,16 +9,16 @@ seed_examples:
     question: How would you rewrite this sentence to use more inclusive IT terminology?
     answer: >
       In database replication, the primary database is regarded as the
-      authoritative source, and the secondary databases are syncrhonized to it.
+      authoritative source, and the secondary databases are synchronized to it.
   - context: >
       Blacklisting is the action of a group or authority compiling a
-      blacklist of people, countries, or other entites to be avoided or
+      blacklist of people, countries, or other entities to be avoided or
       distrusted as being deemed unacceptable to those making the list.
     question: Show me how to use inclusive IT terminology to replace non-inclusive
       IT terminology.
     answer: >
       Denylisting is the action of a group or authority compiling a denylist
-      of people, countries, or other entites to be avoided or distrusted as
+      of people, countries, or other entities to be avoided or distrusted as
       being deemed unacceptable to those making the list.
   - context: >
       In database replication, the master database is regarded as the
