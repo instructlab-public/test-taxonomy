@@ -1,0 +1,140 @@
+version: 3
+domain: technology
+created_by: mkusiappiah
+seed_examples:
+  - context: |
+      The Linux kernel is a free and open-source, Unix-like kernel that operates
+      as the core component managing hardware resources and enabling software
+      execution across a wide range of computer systems. Architecturally, Linux
+      is a monolithic kernel: the operating system runs in kernel space, yet it
+      maintains modularity through loadable kernel modules that can be loaded and
+      unloaded during runtime.
+    questions_and_answers:
+      - question: |
+          What is the Linux kernel?
+        answer: |
+          The Linux kernel is a free and open-source, Unix-like kernel that is
+          the core component managing hardware resources and enabling software
+          execution across many computer systems.
+      - question: |
+          What type of kernel is Linux?
+        answer: |
+          Linux is a monolithic kernel, meaning the operating system runs in
+          kernel space, though it remains modular through loadable kernel
+          modules.
+      - question: |
+          How does Linux stay modular despite being monolithic?
+        answer: |
+          Linux uses loadable kernel modules that can be loaded and unloaded
+          during runtime.
+  - context: |
+      In 1991, computer science student Linus Torvalds at the University of
+      Helsinki began developing an operating system kernel inspired by Unix as a
+      personal project. On 25 August 1991, Torvalds announced his work in a post
+      to the Usenet newsgroup comp.os.minix, and on 5 October 1991 he released
+      version 0.02, the first "official" version. Version 0.11, released in
+      December 1991, was the first self-hosted kernel, and version 0.12, released
+      in January 1992, adopted the GNU General Public License version 2.
+    questions_and_answers:
+      - question: |
+          Who created the Linux kernel and when?
+        answer: |
+          The Linux kernel was created by Linus Torvalds, a computer science
+          student at the University of Helsinki, beginning in 1991.
+      - question: |
+          When was the first official version of the kernel released?
+        answer: |
+          Torvalds released version 0.02, the first official version, on 5
+          October 1991, after announcing his work on 25 August 1991.
+      - question: |
+          Which kernel version adopted the GNU General Public License version 2?
+        answer: |
+          Version 0.12, released in January 1992, adopted the GNU General Public
+          License version 2.
+  - context: |
+      Linux is released under the GNU General Public License version 2 (GPLv2),
+      with compatible supplementary licenses applying to certain files. This
+      licensing ensures that all source files, including device drivers, remain
+      freely available for examination and modification. The GPL's copyleft
+      mechanism has been instrumental to Linux's collaborative development,
+      allowing thousands of programmers worldwide to contribute code while
+      requiring that derived works remain open-source.
+    questions_and_answers:
+      - question: |
+          Under what license is the Linux kernel released?
+        answer: |
+          The Linux kernel is released under the GNU General Public License
+          version 2 (GPLv2), with compatible supplementary licenses on certain
+          files.
+      - question: |
+          What does the GPL copyleft mechanism require?
+        answer: |
+          It requires that derived works remain open-source, keeping source
+          files freely available for examination and modification.
+      - question: |
+          Why has the GPL been important to Linux development?
+        answer: |
+          The copyleft license enabled thousands of programmers worldwide to
+          contribute code while ensuring derived works remain open-source.
+  - context: |
+      Linux is highly portable, powering computing environments that range from
+      embedded microcontrollers to the world's most powerful supercomputers. The
+      kernel supports many hardware architectures, including x86, ARM, and
+      PowerPC. Major deployment contexts include web servers, Android mobile
+      devices, and embedded systems, making Linux a foundational technology that
+      spans consumer electronics through enterprise infrastructure.
+    questions_and_answers:
+      - question: |
+          Which hardware architectures does the Linux kernel support?
+        answer: |
+          The Linux kernel supports many architectures, including x86, ARM, and
+          PowerPC.
+      - question: |
+          Where is Linux commonly deployed?
+        answer: |
+          Linux is deployed from embedded microcontrollers to the world's most
+          powerful supercomputers, including web servers, Android devices, and
+          embedded systems.
+      - question: |
+          Is the Linux kernel portable?
+        answer: |
+          Yes. Linux is highly portable, running on environments from embedded
+          microcontrollers to supercomputers.
+  - context: |
+      The Linux kernel is written predominantly in the C programming language,
+      with architecture-specific components in assembly language, and support for
+      Rust code was introduced in version 6.1. The kernel exposes system calls
+      that serve as entry points enabling user-space applications to request
+      privileged operations. User-space programs interact with kernel
+      functionality through these standardized interfaces and through
+      pseudo-filesystems such as procfs and sysfs, while the kernel manages
+      hardware through device drivers, memory management, process scheduling, and
+      inter-process communication.
+    questions_and_answers:
+      - question: |
+          What programming languages is the Linux kernel written in?
+        answer: |
+          It is written predominantly in C, with architecture-specific assembly
+          language; support for Rust was introduced in version 6.1.
+      - question: |
+          What are system calls in the Linux kernel?
+        answer: |
+          System calls are entry points that enable user-space applications to
+          request privileged operations from the kernel.
+      - question: |
+          How do user-space programs interact with the kernel?
+        answer: |
+          They interact through system calls and pseudo-filesystems such as
+          procfs and sysfs, while the kernel manages hardware via device
+          drivers, memory management, process scheduling, and inter-process
+          communication.
+document_outline: |
+  Overview of the Linux kernel, including its definition and monolithic
+  architecture, its history and creation by Linus Torvalds, its GPLv2 licensing,
+  its portability and hardware support, and the programming languages and system
+  calls used to interact with hardware and user space.
+document:
+  repo: https://github.com/mkusiappiah/taxonomy-knowledge-docs
+  commit: 45c9719ba76937927220a96adf9cd366b0d5c7e5
+  patterns:
+    - linux_kernel.md

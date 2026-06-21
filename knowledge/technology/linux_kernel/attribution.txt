@@ -1,0 +1,5 @@
+Title of work: Linux kernel
+Link to work: https://en.wikipedia.org/wiki/Linux_kernel
+Revision: https://en.wikipedia.org/w/index.php?title=Linux_kernel&oldid=1358729107
+License of the work: CC-BY-SA-4.0
+Creator names: Wikipedia Authors
