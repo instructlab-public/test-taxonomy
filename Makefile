@@ -20,3 +20,11 @@ endif
 md-lint: ## Lint markdown files
 	$(ECHO_PREFIX) printf "  %-12s ./...\n" "[MD LINT]"
 	$(CMD_PREFIX) podman run --rm -v $(CURDIR):/workdir --security-opt label=disable docker.io/davidanson/markdownlint-cli2:latest > /dev/null
+
+TAXONOMY_FOLDERS ?= compositional_skills knowledge
+
+.PHONY: verify
+verify: ## Validate all taxonomy qna.yaml files against the schema
+	$(ECHO_PREFIX) printf "  %-12s ./...\n" "[YAML LINT]"
+	$(CMD_PREFIX) SCHEMA_VERSION=0 TAXONOMY_FOLDERS="$(TAXONOMY_FOLDERS)" \
+		scripts/check-yaml.py $$(find $(TAXONOMY_FOLDERS) -name 'qna.yaml' -print)

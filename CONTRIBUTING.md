@@ -165,5 +165,21 @@ You can also see this citation style in the [Data sources documentation](https:/
 
 Please consult the [`ilab` documentation](https://github.com/instructlab/instructlab) to set up your environment.
 
+### Validating your contribution locally
+
+Before opening a pull request, you can run the same schema validation that the CI `lint` workflow performs. First, install the validation dependencies:
+
+```shell
+pip install -r scripts/requirements.txt
+```
+
+Then run:
+
+```shell
+make verify
+```
+
+This validates every `qna.yaml` file under `compositional_skills` and `knowledge` against the InstructLab taxonomy schema and reports any errors before you submit.
+
 [DCO]: https://developercertificate.org/
 [Linux-DCO]: https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin
